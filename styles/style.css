@@ -1,0 +1,31 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+}
+
+h1 {
+    opacity: 87%;
+}
+
+h2, li, th{
+    opacity: 60%;
+}
+
+p {
+    opacity: 38%;
+}
+
+.delacroixImagem {
+    height: auto;
+    width: 300px;
+    float: right;
+    border-radius: 30%;
+}
+
+.resumo, .vidaEObra {
+    width: 50vw;
+}
