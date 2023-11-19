@@ -1,7 +1,3 @@
-* {
-    border: 1px solid red;
-}
-
 body {
     background-color: #121212;
     color: white;
@@ -11,7 +7,10 @@ h1 {
     opacity: 87%;
 }
 
-h2, li, th{
+h2,
+li,
+th,
+a {
     opacity: 60%;
 }
 
@@ -19,13 +18,68 @@ p {
     opacity: 38%;
 }
 
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 10vw;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.retratos {
+    position: block;
+    float: right;
+    clear: right;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .delacroixImagem {
     height: auto;
     width: 300px;
     float: right;
     border-radius: 30%;
+    margin: 50px;
 }
 
-.resumo, .vidaEObra {
+.tabelaObras table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resumo,
+.vidaEObra {
     width: 50vw;
+}
+
+.massacre {
+    display: flex;
+    align-items: center;
+}
+
+.liberte {
+    display: flex;
+    align-items: center;
+}
+.batalha {
+    display: flex;
+    align-items: center;
 }
