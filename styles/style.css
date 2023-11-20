@@ -18,6 +18,10 @@ p {
     opacity: 38%;
 }
 
+img {
+    max-width: 100%;
+}
+
 .menu {
     margin: 0;
     padding: 0;
@@ -86,4 +90,38 @@ main {
 .maynara {
     display: flex;
     align-items: center;
+}
+
+.imagens-may {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.imagens-may img {
+    object-fit: contain;
+    width: 200px;
+    height: auto;
+}
+
+.tabelasmay {
+    margin-left: 400px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagens-maldita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagens-maldita img {
+    object-fit: contain;
+    width: 200px;
+    height: auto;
 }
